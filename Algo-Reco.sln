@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{79473C56-2BAD-4153-81A4-EBB55F9BA4D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Movie", "Movie", "{1E42648F-4174-4E0A-994A-B68F66FB99DE}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\MovieData\movies.dat = ThirdParty\MovieData\movies.dat
+		ThirdParty\MovieData\ratings.dat = ThirdParty\MovieData\ratings.dat
+		ThirdParty\MovieData\users.dat = ThirdParty\MovieData\users.dat
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algo.Reco", "Algo.Reco\Algo.Reco.csproj", "{6CA9338E-0984-4A3F-870B-928294EE4161}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algo.Tests", "Algo.Tests\Algo.Tests.csproj", "{53E61BE1-B9A9-4955-AAF4-3444A28E3497}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algo.Optim", "Algo.Optim\Algo.Optim.csproj", "{BB710C55-6DEA-48F2-BC21-FBE93E484BC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flight", "Flight", "{1841E7ED-D1E9-4C5A-B4B2-505C4272AD28}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\FlightData\airports.txt = ThirdParty\FlightData\airports.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2010", "2010", "{D30825F8-E32D-491B-A486-C6484E897464}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-26", "07-26", "{24511D6A-3930-4A7E-8EC2-EA6186DDB0A0}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\FlightData\2010\07-26\BER-LHR.xml = ThirdParty\FlightData\2010\07-26\BER-LHR.xml
+		ThirdParty\FlightData\2010\07-26\BIO-LHR.xml = ThirdParty\FlightData\2010\07-26\BIO-LHR.xml
+		ThirdParty\FlightData\2010\07-26\CDG-LHR.xml = ThirdParty\FlightData\2010\07-26\CDG-LHR.xml
+		ThirdParty\FlightData\2010\07-26\JFK-LHR.xml = ThirdParty\FlightData\2010\07-26\JFK-LHR.xml
+		ThirdParty\FlightData\2010\07-26\LYS-LHR.xml = ThirdParty\FlightData\2010\07-26\LYS-LHR.xml
+		ThirdParty\FlightData\2010\07-26\MAN-LHR.xml = ThirdParty\FlightData\2010\07-26\MAN-LHR.xml
+		ThirdParty\FlightData\2010\07-26\MRS-LHR.xml = ThirdParty\FlightData\2010\07-26\MRS-LHR.xml
+		ThirdParty\FlightData\2010\07-26\MXP-LHR.xml = ThirdParty\FlightData\2010\07-26\MXP-LHR.xml
+		ThirdParty\FlightData\2010\07-26\TUN-LHR.xml = ThirdParty\FlightData\2010\07-26\TUN-LHR.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-27", "07-27", "{F879736E-ABD5-4766-AF6E-82815F289919}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\FlightData\2010\07-27\BER-LHR.xml = ThirdParty\FlightData\2010\07-27\BER-LHR.xml
+		ThirdParty\FlightData\2010\07-27\BIO-LHR.xml = ThirdParty\FlightData\2010\07-27\BIO-LHR.xml
+		ThirdParty\FlightData\2010\07-27\CDG-LHR.xml = ThirdParty\FlightData\2010\07-27\CDG-LHR.xml
+		ThirdParty\FlightData\2010\07-27\JFK-LHR.xml = ThirdParty\FlightData\2010\07-27\JFK-LHR.xml
+		ThirdParty\FlightData\2010\07-27\LYS-LHR.xml = ThirdParty\FlightData\2010\07-27\LYS-LHR.xml
+		ThirdParty\FlightData\2010\07-27\MAN-LHR.xml = ThirdParty\FlightData\2010\07-27\MAN-LHR.xml
+		ThirdParty\FlightData\2010\07-27\MRS-LHR.xml = ThirdParty\FlightData\2010\07-27\MRS-LHR.xml
+		ThirdParty\FlightData\2010\07-27\MXP-LHR.xml = ThirdParty\FlightData\2010\07-27\MXP-LHR.xml
+		ThirdParty\FlightData\2010\07-27\TUN-LHR.xml = ThirdParty\FlightData\2010\07-27\TUN-LHR.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-03", "08-03", "{2B9D5A10-D5F8-4DA5-A1E5-7DBB186C8B62}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\FlightData\2010\08-03\LHR-BER.xml = ThirdParty\FlightData\2010\08-03\LHR-BER.xml
+		ThirdParty\FlightData\2010\08-03\LHR-BIO.xml = ThirdParty\FlightData\2010\08-03\LHR-BIO.xml
+		ThirdParty\FlightData\2010\08-03\LHR-CDG.xml = ThirdParty\FlightData\2010\08-03\LHR-CDG.xml
+		ThirdParty\FlightData\2010\08-03\LHR-JFK.xml = ThirdParty\FlightData\2010\08-03\LHR-JFK.xml
+		ThirdParty\FlightData\2010\08-03\LHR-LYS.xml = ThirdParty\FlightData\2010\08-03\LHR-LYS.xml
+		ThirdParty\FlightData\2010\08-03\LHR-MAN.xml = ThirdParty\FlightData\2010\08-03\LHR-MAN.xml
+		ThirdParty\FlightData\2010\08-03\LHR-MRS.xml = ThirdParty\FlightData\2010\08-03\LHR-MRS.xml
+		ThirdParty\FlightData\2010\08-03\LHR-MXP.xml = ThirdParty\FlightData\2010\08-03\LHR-MXP.xml
+		ThirdParty\FlightData\2010\08-03\LHR-TUN.xml = ThirdParty\FlightData\2010\08-03\LHR-TUN.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-04", "08-04", "{284F4CEE-3024-4A26-A600-C5A5EA6A8DA7}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\FlightData\2010\08-04\LHR-BER.xml = ThirdParty\FlightData\2010\08-04\LHR-BER.xml
+		ThirdParty\FlightData\2010\08-04\LHR-BIO.xml = ThirdParty\FlightData\2010\08-04\LHR-BIO.xml
+		ThirdParty\FlightData\2010\08-04\LHR-CDG.xml = ThirdParty\FlightData\2010\08-04\LHR-CDG.xml
+		ThirdParty\FlightData\2010\08-04\LHR-JFK.xml = ThirdParty\FlightData\2010\08-04\LHR-JFK.xml
+		ThirdParty\FlightData\2010\08-04\LHR-LYS.xml = ThirdParty\FlightData\2010\08-04\LHR-LYS.xml
+		ThirdParty\FlightData\2010\08-04\LHR-MAN.xml = ThirdParty\FlightData\2010\08-04\LHR-MAN.xml
+		ThirdParty\FlightData\2010\08-04\LHR-MRS.xml = ThirdParty\FlightData\2010\08-04\LHR-MRS.xml
+		ThirdParty\FlightData\2010\08-04\LHR-MXP.xml = ThirdParty\FlightData\2010\08-04\LHR-MXP.xml
+		ThirdParty\FlightData\2010\08-04\LHR-TUN.xml = ThirdParty\FlightData\2010\08-04\LHR-TUN.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CA9338E-0984-4A3F-870B-928294EE4161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA9338E-0984-4A3F-870B-928294EE4161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA9338E-0984-4A3F-870B-928294EE4161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA9338E-0984-4A3F-870B-928294EE4161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E61BE1-B9A9-4955-AAF4-3444A28E3497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E61BE1-B9A9-4955-AAF4-3444A28E3497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E61BE1-B9A9-4955-AAF4-3444A28E3497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E61BE1-B9A9-4955-AAF4-3444A28E3497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB710C55-6DEA-48F2-BC21-FBE93E484BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB710C55-6DEA-48F2-BC21-FBE93E484BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB710C55-6DEA-48F2-BC21-FBE93E484BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB710C55-6DEA-48F2-BC21-FBE93E484BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E42648F-4174-4E0A-994A-B68F66FB99DE} = {79473C56-2BAD-4153-81A4-EBB55F9BA4D6}
+		{1841E7ED-D1E9-4C5A-B4B2-505C4272AD28} = {79473C56-2BAD-4153-81A4-EBB55F9BA4D6}
+		{D30825F8-E32D-491B-A486-C6484E897464} = {1841E7ED-D1E9-4C5A-B4B2-505C4272AD28}
+		{24511D6A-3930-4A7E-8EC2-EA6186DDB0A0} = {D30825F8-E32D-491B-A486-C6484E897464}
+		{F879736E-ABD5-4766-AF6E-82815F289919} = {D30825F8-E32D-491B-A486-C6484E897464}
+		{2B9D5A10-D5F8-4DA5-A1E5-7DBB186C8B62} = {D30825F8-E32D-491B-A486-C6484E897464}
+		{284F4CEE-3024-4A26-A600-C5A5EA6A8DA7} = {D30825F8-E32D-491B-A486-C6484E897464}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29D75039-658B-4AA1-B900-5115FF30181A}
+	EndGlobalSection
+EndGlobal
